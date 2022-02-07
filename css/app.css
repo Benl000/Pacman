@@ -1,0 +1,49 @@
+body {
+  margin: auto;
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  color: rgb(248, 231, 174);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.wall{
+  background-color: black;
+  border: blue 2px solid;
+  width: 40px;
+  height: 40px;;
+}
+
+table{
+  margin: auto;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
+  border: blue 2px solid;
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  padding: 10px 10px;
+  font-size: 120%;
+  margin: auto;
+  display: none;
+  cursor: pointer;
+}
